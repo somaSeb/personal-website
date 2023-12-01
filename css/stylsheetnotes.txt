@@ -1,0 +1,21 @@
+/* test */
+    height: 480px;  /* align item dependency */ 
+    font-size: 22px;
+    display: flex; /* grid für mehrere spalten / Zeile  ----  flex für horizontal*/
+    flex-direction: row; /* row / column changes axis allignment */ 
+    justify-content: space-between;
+    flex-wrap: wrap; /* overlaps the content in responsive */
+    align-items: center;  /* only works with height since its correspond with main axis */ 
+
+
+Elemente die mit dem Scrollen mitgehen:
+    postioning: fixed/sticky/absolout/relativ; (relative und absolout immer verkehrt herum)
+    top
+    bottom
+    left
+    right
+
+
+Stakcing order re priority
+
+z index 1
